@@ -9,12 +9,14 @@ import Sidebar from './components/Sidebar';
 import SimpleContainer from './components/Container';
 import Parent from './components/Content'
 import { Container } from '@mui/material';
+import LandingPage from './components/LandingPage';
 // import ButtonUsage from './components/ButtonUsage';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <LandingPage/>
         <SimpleContainer/>
       <header className="App-header">
         <div>
